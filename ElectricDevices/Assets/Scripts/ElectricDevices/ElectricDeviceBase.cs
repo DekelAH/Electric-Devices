@@ -45,7 +45,7 @@ namespace Assets.Scripts.ElectricDevices
         #region Properties
 
         public string DeviceName => _deviceName;
-        public int ConsumingVolt => _consumingWatt;
+        public int ConsumingWatt => _consumingWatt;
         public Color Color => _color;
         public bool IsOn => _isOn;
 
